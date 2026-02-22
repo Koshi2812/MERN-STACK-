@@ -1,0 +1,23 @@
+ol,ul{
+    color: white;
+    background-color: yellow;
+    width: 15%;
+    margin: 30px;
+    padding: 20px;
+    display: inline-block;
+    border: 5px solid red;
+    border-radius: 30px;
+
+}
+li{
+    margin: 10px;
+    border-radius: 30px;
+    padding: 10px;
+    color: black;
+    border: 3px solid white;
+    background-color: rgb(42, 165, 50);
+
+}
+li:hover{
+    background-color: rgb(26, 0, 128);
+}

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Forms with Fieldset  CSS</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <fieldset>
+        <legend>REGISTRATION FORM  </legend>
+        <form name="regForm">
+            <table>
+                <tr>
+                    <td>
+                        <label>First Name:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="fname" placeholder="Enter your first name">
+                    </td>
+                    <td>
+                        <span> *****enter valid first name*********</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Last Name:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="lname" placeholder="Enter your last name">
+                    </td>
+                    <td>
+                        <span> *****enter valid last name******</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Password:</label>
+                    </td>
+                    <td>
+                        <input type="password" name="pwd" placeholder="Enter your password">
+                    </td>
+                    <td>
+                        <span> *****Password and confirm password must be same ******</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Confirm Password:</label>
+                    </td>
+                    <td>
+                        <input type="password" name="confpwd" placeholder="Confirm your password">
+                    </td>
+                    <td>
+                        <span> *****Password and confirm password must be same ******</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Email:</label>
+                    </td>
+                    <td>
+                        <input type="email" name="uemail" placeholder="Enter your email">
+                    </td>
+                    <td>
+                        <span> *****enter valid email******</span>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <label>Gender:</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="gender" value="male" > Male 
+                        <input type="radio" name="gender" value="female"> Female
+                    </td>
+                    <td>
+                        <span> *****select gender******</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="2">
+                        <label>Languages</label>
+                    </td>
+                    <td>
+
+                        <input type="checkbox" name="lang" value="C"> C Lang
+                        <input type="checkbox" name="lang" value="C++"> C++ Lang
+                    </td>
+                    <td rowspan="2">
+                        <span> *****select at least one language******</span>
+                    </td>
+
+                </tr>
+                <tr>
+                    
+                    <td>
+                        <input type="checkbox" name="lang" value="Java"> JAVA Lang
+                        <input type="checkbox" name="lang" value="PYTHON"> PYTHON Lang
+                    </td>
+                    <td>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td> 
+                        <label>Country:</label>
+                    </td>
+                    <td>
+                        <select name="country">
+                            <option value="">Select Country</option>
+                            <option value="India">India</option>
+                            <option value="USA">USA</option>
+                            <option value="UK">UK</option>
+                            <option value="Australia">Australia</option>
+                        </select>
+                     </td>
+                     <td> <span> *****select country*****</span></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>****Date of Birth:*****</label>
+                    
+                    </td>
+                    <td> 
+                        <input type="date" name="dob" placeholder="Enter your DOB">
+                    </td>
+                    <td>
+                        <span>*****enter valid DOB****</span>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+                        <label>Phone Time:</label>
+                    </td>
+                    <td>
+                        <input type="time" name="ptime" placeholder="Enter time">
+                    </td>
+                    <td>
+                        <span>*****enter valid time****</span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td>
+                            <label>Fav Color </label>
+                        </td>
+                        <td>
+                            <input type="color" name="favcolor" placeholder="Enter your favorite color">
+                        </td>
+                        <td>
+                            <span>****choose favorite color****</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>RESUME</label>
+                        </td>
+                        <td>
+                            <input type="file" name="resume" placeholder="Upload your resume">
+                        </td>
+                        <td>
+                            <span>****enter pdf format only*****</span>
+                        </td>   
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>ADDRESS</label>
+
+                        </td>
+                        <td>
+                            <textarea name="address" cols="" rows="" placeholder="Enter your address"></textarea>
+                        </td>
+                        <td>
+                            <span>****enter valid address*****</span>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="submit" value="Register">
+                           
+                        </td>
+                        <td> 
+                             <input type="reset"  value="Clear">
+                        </td>
+                </table>
+        </form>
+    </fieldset>
+    
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nested Table Layout</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        .outer {
+            border: 4px solid green;
+            width: 600px;
+        }
+
+        .outer td {
+            border: 2px solid green;
+            padding: 15px;
+        }
+
+        .inner {
+            border: 3px solid blue;
+            width: 100%;
+        }
+
+        .inner td {
+            border: 2px solid blue;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <table class="outer">
+        <tr>
+            <!-- Left big cell -->
+            <td rowspan="2">Table 1</td>
+
+            <!-- Right top cell containing nested table -->
+            <td>
+                Table 1
+                <br><br>
+
+                <table class="inner">
+                    <tr>
+                        <td>Table 2</td>
+                        <td>Table 2</td>
+                    </tr>
+                    <tr>
+                        <td>Table 2</td>
+                        <td>Table 2</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <!-- Bottom row -->
+        <tr>
+            <td>
+                <table width="100%">
+                    <tr>
+                        <td>Table 1</td>
+                        <td>Table 1</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>

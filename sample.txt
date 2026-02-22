@@ -1,1 +1,1033 @@
-Hello I am Koshmitha Peddamalla 
+``````````````````````` 02-02-2026 MONDAY ``````````````````````
+
+HTML 
+ hyper text markup language 
+html used to develop static webpage 
+latest version is "HTML 5.X"
+HTML released by "TIM BERNERS LEE"
+
+CSS
+css stands for cascading style sheet 
+css used to apply styles
+ex: 
+     color
+     background -color 
+     margin 
+     font - size
+     font - family
+     -----------
+     ---------
+       -----
+latest version css 3.X
+
+javascript 
+java script is the scripting language 
+java script , used to develop dynamic web page 
+java script also used to implement forms validation
+java script released by Netscape 
+current version is ES 13
+ES stands for ECMA script 
+ECMA europian computer manufacturing association 
+IDE stands for "Integrated develop environment "
+IDE used to develop application 
+ex:
+   VSCODE (visual studio code)
+   Notepad
+   Editplus 
+   Notepad++
+   word pad
+   ecilipse
+   ----------
+    --------
+     ----
+vs code gives by micro soft and open source IDE
+vs code recommended to develop web app location 
+ex:
+HTML
+CSS
+Java script
+React 
+Angular 
+------
+----
+--
+extension for html pages are ".html"   or  ".htm"
+extension for css pages are ".css"
+extension for javascript are ".js"
+browser are used to execute 
+HTML 
+css
+javascript 
+
+ex: 
+google chrome
+mozilla 
+opera
+Netscape 
+navigator
+IE
+--------
+-----
+----
+
+we have two types of web application
+static web application
+dynamic web application 
+
+static web application - content same irrespective of user and location called as static web application .
+ex:
+   w3 school 
+   tutorial points
+   
+dynamic web application - content varies from user to user based on "location " called as dynamic web application 
+ex:
+ swiggy
+ zomoto 
+ rapido 
+ uber
+------
+---
+--
+ 
+HTML is "tag based markup language" 
+tag divided into 
+
+ex:
+ <html></html> -- root element 
+<p></p> -- display paragraphs 
+<h1></h1> -- display main heading 
+<div></div> -- create divisions in web page 
+<br> -- line break 
+<hr> -- horizontal rule 
+<img> -- display image
+<a></a> -- create hyper link 
+<title></title> -- display tittle
+<form></form> -- display forms
+
+
+
+
+Tag surrounder with "< >"
+closing tag start with "/" 
+Tags divided into two types 
+ (1)  paired / container tag
+ (2)  non paired / non paired tag
+
+paired / container tag -- it contains both "opening tag " and "closing tag"
+
+ex: 
+ <html></html>
+<title><title>
+-------
+----
+--
+
+non paired / non container tag -- it contains only opening tag
+
+ex:
+ <img>
+<br>
+<hr>
+-------
+-----
+---
+ 
+
+
+
+
+
+
+`````````````````````````03/03/2026 TUESDAY `````````````````````````````
+
+HTML element 
+
+html 5 supports API's 
+API stands for application programming interface 
+
+1) web socket -- web socket used to implement chat application
+2) geolocation API -- used to find the object location
+ex: latitude & longitude
+3) web worker -- used to run task paralley at background by using javascript
+4) semantic elements -- HTML 5 released "new tags " new tags technically called as elements
+   semantic elements increases application "readability & modularity "
+
+<headers></header> -- used to display webpage header 
+<nav></nav> -- used to display navigation menu
+ ex: home about portfolio singin
+
+<aside></aside> -- used to display left menu as well as right menu in web page
+<main></main> -- display main web page content
+ ex: - tables, forms , images, ---------- -------- ---
+
+<footer></footer> -- used to display web page summary 
+<summary></summary> -- display we web page summary  
+ ex:- copyright@careerit.ac.in
+ 
+<audio></audio> -- play audio in webpage 
+<video></video> -- paly video in webpage 
+<section></section> -- select portion of web page 
+<articles<</article> -- used to display articles 
+<abbr></abbr> -- used to display abbrivation 
+<figure>
+        <figcaptions></figcaption>
+</figure>
+    -- used to display image with description 
+
+5) drag & drop -- drag api also released in html 5
+6) graphics supports -- html 5 supports both 2D & 3D graphics 
+7) animation -- HTML 5 supports animation development 
+8) storage -- html 5 supports two types of storages
+  1) local storage
+  2) session storge 
+
+LOCAL STORAGE -- whenever we open the new tab or close browser we never lost the data from local storage 
+ ex:- cart in e-commerce application 
+SESSION STORAGRE -- whenever we open the new tab or close browser we will lost the data from session storage 
+ ex:- payment gateways
+
+
+STRUCTURE OF WEB PAGE 
+-----------------------
+
+DOCTYPE 
+ROOT SECTION 
+     HEAD SECTION 
+         METADATA
+     BODY SECTION 
+        MAIN CONTCENT 
+
+DOCTYPE -- representing HTML version 
+browsers -- only understand DOCTYPE below DOCTYPE respecting HTML 5 
+    <!DOCTYPE html>
+
+<html></html> tag, used to create root section of webpage 
+<body></body> tag , used to create HEAD section of web page 
+
+information about webpage called as METADATA .
+ ex:-
+ author 
+ version 
+ description
+ chat set 
+ -----------
+---------
+------
+ 
+we will define METADATA under head section of webpage
+<meta> tag, used to define META DATA 
+<meta> tag is non  paired / non container tag
+ 
+we will define main content under body section of web page 
+ 
+ex:- tables 
+     forms 
+     paragraphs 
+     images 
+  -----------
+---------
+----
+
+
+
+`````````````````````````````````````````````````````04/02/2026 WEDNESDAY`````````````````````````````````````````````````
+ HTML elements 
+ ----------------
+opening tag ,content and cloasing tag called as HTML element 
+HTML element also called as "buliding block" of web page 
+fig ------
+
+    ATTRIBUTES 
+    
+attributes used to enhace HTML element functionally 
+attributes applicable to opening tag 
+attributes are key and value pairs 
+key & value separated by using "="
+pairs (key & values) separated by using space(" ")
+
+  SOFTWARE INSTALLATION
+1) download and install vs code 
+ website :https://code.visualstudio.com/download
+ file. : vsCodeUserSet-arm64-1
+
+2) add liveserver plugin 
+   liveserver plugin,capture application changes continuosly
+   browsers receives changes from livesever plugin
+   browser will refresh automatically when ever code changes 
+
+3) enable Autosave
+   application will save automatically 
+   file --> Autosave
+
+4)install Browser 
+  google chrome 
+
+<meta> tag 
+-----------
+   <meta> tag used to define METADATA
+   data about webpage called METADATA 
+   ex. 
+      author 
+      description
+      version
+      tittle
+      -------
+      ---
+      --
+      <meta>tag is non paired tag 
+      <meta> tag helps SEO( search engine optimization)
+      <meta> tag controls page behaviour 
+      <meta> tag supports character encoding
+
+``````````````````````````````````````````````````````05/02/2026 THURSDAY `````````````````````````````````````````````````````
+
+   HEADINGS 
+--------------
+HTML supports 6 headings 
+<h1></h1>  main heading [large heading]
+<h2></h2>  sub heading 
+<h3></h3>   ---
+<h4></h4>   ---
+<h5></h5>   ---
+<h6></h6>   ---[small heading]
+
+EXTERNAL STYLE SHEET
+---------------------
+<link>tag, is used to include external style sheet .
+<link> tag, is non paired tag
+<link>tag, suppport two attributes 
+ 1) rel="stylesheet"
+ 2)href
+
+BLOCK LEVEL ELEMENTs
+---------------------------
+ Each element start with new line called as Block level elements 
+ by default Block level elements ocupies 100% width 
+ ex.
+     headings 
+     paragraphs
+     divisions 
+     lists
+     ----
+     ---
+     ---
+    below snippet used to convert block level to inline 
+    ex: 
+        display : inline-block;
+
+inline elements 
+---------------
+  each elements never start with new line and ocupies only requied width called as inline elements 
+  ex:
+      <img> ,
+      <a></a> ,
+      <button></button> ,........
+
+ below css snippet , used to convert "inline element" to "block elements"
+ ex: 
+    display : block;
+
+Grouping elements 
+-------------------
+ applying styles more than one elements at a time  called as grouping selectors 
+                 ( or )
+ combining selectors called as grouping of selectors
+ ex: h1,p,span{
+
+      }
+
+Padding in css
+----------------
+ space around  the content called as padding in css
+ ex:
+    padding : 20px;
+
+     fig ------
+
+margin in css
+--------------
+ space around the html element called as margin 
+ ex:
+    margin : 20px;
+    
+     fig -------
+
+box-model in css
+-------------------
+ combination of margin , border and padding called as box-model in css
+
+``````````````````````````````````````````````````````06/02/2026 FRIDAY ````````````````````````````````````````````````````````````
+GITHUB 
+-------
+  github is code collabration tool 
+  "Git" is the tool, used to interact with the github
+
+  website : https://git.scm.com/insta/windows
+  file : git-2.53.0-64-bit.exe
+
+    > git -v 
+
+
+create github account
+  website : https://github.com/
+    
+
+    GITHUB
+1.	git init   (To initialize the git)
+2.	git config --global user.name “Bhavani”  (TO config user name in GITHUB)
+3.	git config --global user.email”pallaprolubhavani@gmail.com” (To Config useremail in GITHUB)
+4.	git add . (To adding coding files)
+5.	git commit -m “Codes saved to local Repository” (To save files in repository)
+6.	git remote add origin URL (for connetcting the local repo to git cloud we are connecting it using these command with the help of URL)
+7.	git push -u origin master (To push the code from local repository to Cloud )
+In order to add individual files and push it into git we need to do 
+1.	git add push.html //certain file for pushing
+2.	git commit -m “one file added”
+3.	git push 
+Updated code you need to get use -> git pull 
+When one developer gives you collaboration you want to edit that file created by developer here what you need to do exactly for adding content or files in another developer’s code.
+1.	Open command prompt and change directory where you want to execute 
+2.	git clone url (url of that developer code)
+3.	now open that folder in vscode and make the changes what you want to do like adding files or add code in one file 
+4.	git add .
+5.	git commit -m “write some message here”
+6.	git push // pushing the code into the github 
+these  will updates changes
+Now another developer wants updated code 
+The thing the developer needs to do is pull the code 
+Command needs to be used 
+git pull origin master 
+
+````````````````````````````````````````````````07/02/2026 SATURDAY ```````````````````````````````````````````````
+ semantic elements 
+ ---------------------
+ new tag called as semantic elements 
+ sematic elemnts relased in HTML5.X
+ semantic elements increases application readability and modularity
+  ex.
+     <audio></audio>
+     <video><video>
+     <header></header>
+     <nav></nav>
+     <aside><aside>
+     <main></main>
+     <footer></footer>
+     <summary><summary>
+     <section></section>
+     <article><article>
+     -------
+     -------
+     ------
+`````````````````````````````````
+
+ <audio><audio>
+ --------------
+     <audio><audio> tag used to play "audio" in webpages
+
+ <video></video>
+ ----------------
+     <video></video> tag used to play "video" in web pages
+
+`````````````````````````````````````````````````````````11/02/2026 WEDNESDAY``````````````````````````````````````````````
+
+what are the difference blw external styles and internal styles ?
+  internal style                                                      external style 
+  ---------------                                                  --------------------
+ <style></style> tag, is used                                     <link> tag, is used to include external style
+ to include internal style  
+
+ <style></style> tag is paired tag                                  <link> tag is non paired tag
+
+ we may not reuse style                                                   we can reuse style
+ -----------------------                                                ------------------------
+decendent selectors0000
+
+
+
+   decendent selector also called as decendent selector
+   selecting element inside another element of any level[depth]
+   called as decendent selectors 
+ syntax.
+        HTML                                      CSS
+       -----                                     ------
+       <div>                                      div p{}
+            <p></p>
+        </div>   
+
+    <div class="c1">                             .c1 span{}
+         <div>
+              <span></span>
+         </div>           
+
+horizontal -- inline   ------ hight ,ide 
+vertical -- block 
+
+BUTTONS 
+-------
+ <button></button> tag, used to display buttonin web page 
+ <button></button> tag is inline element.
+
+In how many ways can we apply styles 
+ 
+  we can apply styles in three ways 
+  1) external
+        <link> tag is used to include external style sheet 
+  2) internal 
+        <style></style> tag, used to include internal style
+  3) inline 
+        style attribute ,used to apply inline style
+
+explain CSS specificity rule?
+   inline style > id selectors > class selectors > element selectors >universal selectors
+
+    "*" used to represent universal selectors
+1.id selector must be unique 
+class selector may be duplicate
+2.id selector high priority compared to class selector
+3.id selector starts with #0
+
+
+
+
+
+
+class selector starts with .
+4.class selector has less specificity compared to id selector
+id selector have more specificity compared to class selector
+--->to dominate 3rd party styles we use --> id selector through id selector 
+--->in single project multiple teams are working --> we will use class selector
+*   element selector   *
+element selector starts with tag name 
+syntax :
+          HTML              CSS
+          ******            *******
+          <p></p>            p{}
+          <h1>               h1{}
+**********divisions*******
+divisions are used to divide web page into multiple sections
+<div></div> tag is block level element
+it is used to create divisions
+
+<div class="c1">
+     <div>
+          <div>
+               <div>
+                    <div>
+                   <h1></h1>
+                </div>
+
+           </div>
+
+Q.  What are the differences between external styles and internal styles ?
+INTERNAL STYLES :                                                 EXTERNAL STYLES:
+<style></style>
+1.style tag is used to include internal styles                   1. <link> tag is used to include external styles 
+2.<style></style> style tag is paired tag                        2.link tag is non paired tag
+3.we may not use styles                                          3. we can reuse styles
+
+
+decendent selector
+        decedent selector also called as dependent selector
+        selecting an element inside another element of any levels(depth) called as decendent selector.
+        
+        HTML                                    CSS
+        *******                               ********
+                                              
+        <div>
+                <p></p>                      div p{}
+        </div>
+
+       
+       <div class="c1">
+       <div>                                 .c1 span{
+                                                         }
+       <span></span>
+       </div>
+       </div>                
+
+horizontal - inline
+vertical - block
+
+BUTTONS 
+******
+<button></button>
+button tag is used to display buttons in web pages 
+button tag is inline element
+
+Q. HOW MANY WAYS TO APPLY STYLES
+
+A. There were 3 ways to apply styles.
+-> link tag is used to link external style sheet
+external  --->  <link>
+
+-> internal style tag is used to include internal styles 
+internal  --->  <style> </style> attribute
+
+-> style attribute is used to apply inline styles 
+inline    --->  style attribute
+
+Q.Explain CSS Specificity rule
+
+inline > id selector > class sector >  element > universal selector.
+* is used to represent universal selector.
+
+************images********
+img tag is used  to display images 
+img tag is inline element
+<img> is non paired tag
+
+*************attributes***********
+1. width 
+  width attribute used to define image width 
+  width="100";
+2. height
+  used to define image height
+  eg:
+  height="100";
+3.src attribute 
+  used to refer image path
+4. alt attribute
+  alt stands for alternative text 
+  if image display fails, automatically alternative text will display
+
+  psuedo classes in css
+
+   psuedo classes is used to set special state to an element 
+   we will apply psuedo classes by using ":"
+   
+   Ex:
+     :hover()
+     :first-of-type{}
+     :last-of-type{}
+     :nth-child{}
+     :not
+     ---
+     ---
+     etc.
+
+Font-awesome
+************
+     Fontawesome is the CSS Library 
+     Fontawesome is used to display symbols 
+     "<i></i>" tag is used to display symbols
+     Fontawesome  CDN , We must include inside "head" section webpage 
+     CDN Stands for "content delievery network"
+
+Eg:
+rupee <i class="fa fa-inr"></i>
+Dollar <i class="fa fa-dollar"></i>
+trash <i class="fa fa-trash"></i>
+Edit <i class="fa fa-edit"></i>
+Facebook <i class="fa fa-facebook"></i>
+
+anchor tag
+  <a></a> tag is used to create hyperlinks
+  <a></a> tag is inline element
+  <a></a> tag is used to navigate from one web page to another web page
+  <a></a> tag is used to open external websites
+  <a></a> tag also used to send emails
+
+  attributes
+  ***********
+  1. href
+     used to refer target location {path}
+  2. target="_blank"
+     used to open new tab in browser
+  
+Tables
+******
+    collection of "rows and columns" called as Table
+
+Tags
+****
+1) <table></table>
+    used to display tables
+
+2) <tr></tr>
+    used to create table row
+
+3) <th></th>
+    used to display table heading
+00
+
+
+000    by default table headings in "first row"
+
+4) <td></td>
+    used to display table cell data
+
+
+
+Attributes
+**********
+1) border
+    used to draw border to the table
+    Ex.
+        border="1"
+
+2) align="left" / "center" / "right"
+    used to align the table
+    "left" is the default alignment
+    Ex.
+        align="center"
+
+3) cellpadding
+    space around the "table cell content" called as "cellpadding"
+    Ex.
+        cellpadding="10"
+
+4) cellspacing
+    space between "table cells" called as "cellspacing"
+    Ex.
+        cellspacing="10"
+
+5) colspan
+    used to merge cells based on columns (horizontally)
+    Ex.
+        colspan="2"
+
+6) rowspan
+    used to merge cells based on rows (vertically)
+    Ex.
+        rowspan="2"
+
+
+forms
+------
+collection of related data called as FORMS.
+Ex:
+ login form 
+ registration form
+
+
+
+
+ Tags
+ -------
+ <form action="" method="" name="" onsubmit="" onreset=""> </form>
+action--> is used to connect TO backend
+method--> 4 methods are possible
+         GET/POST/PUT/DELETE
+         GET ---> FRONTEND USED TO READ DATA FROM BACKEND
+         POST-->  FRONTEND WANTS TO SEND DATA TO backend
+         PUT--> FRONTEND used TO UPDATE backend data 
+         DELETE--> FRONTEND used TO DELETE BACKEND DATA 
+name -->
+       used to assign the logical name to the form 
+       Ex: name="regForm"
+       now "regForm" is the logical name of the form 
+
+onsubmit --->
+onsubmit attribute mainly , it used to handle submit 
+when ever we click submit button , automatically "Register" function will execute in javascript
+
+onreset -->
+ it is used to reset the data 
+
+eg: onreset="cancel()"
+ when ever we click on reset button , automatically 
+
+ <input type="text"/"number"/"tel"/"email"/"password"
+        name=" "
+        placeholder="Enter username"
+
+        Radio button 
+        type="radio"
+        type="checkbox"
+
+<input type="text"> 
+<input type="password"> 
+<input type="radio"> 
+<input type="checkbox"> 
+<input type="button"> 
+<input type="email"> 
+<input type="file"> 
+<input type="hidden"> 
+<input type="image"> 
+<input type="number"> 
+<input type="range"> 
+<input type="search"> 
+<input type="tel"> 
+<input type="time"> 
+<input type="submit"> 
+<input type="reset">
+<input type="url">
+
+NOTE:
+
+<input> tag is non paired Tag 
+placeholder attribute used to display "helperText"
+(hint text)
+
+radio buttons:
+single selection controls 
+mainly called as Radio buttons
+
+male female
+<input type="radio" name="gender" value="male">   male
+<input type="radio" name="gender" value="female"> female
+
+
+MULTISELECTION CONTROLS CALLED AS CHECKBOXES
+---
+multislection controls 
+
+<input type="checkbox" name="languages" value="c"> C language
+<input type="checkbox" name="languages" value="c++"> C++ language
+<input type="checkbox" name="languages" value="Java"> Java language
+<input type="checkbox" name="languages" value="python">Python language
+IN CHECKBOX name attribute must be same
+
+SUBMIT RESET 
+<input type="submit" value ="Register">
+
+<input type="reset" value="Cancel">
+
+
+----------textarea---
+textarea tag used to enter address
+
+<textarea name=" " cols="" rows=""></textarea>
+is used to enter the address
+
+cols attribute is used to increase/decrease the width
+rows aattribute is used to increase/decrease the height
+
+
+dropdown
+
+  <select> tag used to create dropdown
+  <options> tag used to populate the options to dropdown 
+
+<select name="country">
+ <option value="">select country</options>
+ <option value="india">india</options>
+ <option value="america">america</options>
+ --
+ ---
+ ---
+</select>
+
+
+-------rectangular box---------
+<fieldset>
+ <legend>
+ </legend>
+</fieldset>
+
+
+
+<fieldset></fieldset>
+
+<legend></legend>
+  --used to draw rectangular structure with specified label 
+--
+
+grouping 
+elementclass id universal decsecnt attribite selecteor 
+
+
+<marquee> </marquee>
+marquee tag used to scroll the HTML element on WEB pages
+
+ATTRIBUTES
+1. direction attribute 
+   direction= "left"/"right"/"up"/"down"
+   default direction is "left"
+2. scrollamount 
+   used to control the scroll speed
+3. width
+   used to define scroll width 
+
+
+<span></span>
+************
+
+<h1>content</h1>
+ we use span tag used to select portion of content.
+ inline element.
+ also used to display form validation messages. 
+
+
+--------------------LISTS----------------------
+ HTML supports 3 types of lists
+ 1. ordered list : 
+   <ol></ol> is the tag used to create Ordered list 
+   <li></li> is the tag used to create List Item 
+   syntax:
+   <ol>
+      <li></li>
+      <li></li>
+      ---
+      ---
+
+
+      ---
+    </ol>  
+       1. type="A"/"a"/"I"/"i"/1
+          default is number 
+       2. start
+          used to specify starting number in list 
+          Eg: start = "10"
+       3. reversed 
+          used to reverse the list numbers       
+ 2. unordered list 
+          <ul>
+          <li></li>
+          <li></li>
+          ---
+          ---
+          --
+          
+         </ul>
+    ATTRIBUTE
+     1. type="disc"/"circle"/"square"
+        default is "disc"    
+ 3. definition list
+    <dl></dl>
+    it is tag used to create Definition list
+    <dt></dt>
+    it is the tag used to create definition term (Side Heading) 
+    <dd></dd> 
+    it is the tag used to create definition description
+
+    Syntax:
+    <dl>
+      <dt></dt>
+      <dd></dd>
+      <dd></dd>
+      ----
+      ----
+      ----
+      <dt></dt>
+      <dd></dd>
+      <dd></dd>
+      ----
+      ----
+      ---- 
+      <dt></dt>
+      <dd></dd>
+      <dd></dd>
+      ----
+      ----
+      ----
+    </dl>
+
+
+    CSS Positions
+    -------------
+    CSS supports below Positions
+    1. absolute position
+    2. relative position
+    3. fixed position
+    4. sticky position
+    5. static position
+
+    ABSOLUTTE Positions
+    ------------------
+    Child ELement movement depending on parent element 
+    closest parent element
+    close ancestor
+    because of absolute position . webpage layout may effect
+    ex.
+    position: "absolute",
+    left:
+    right:
+    top  :
+    bottom:
+
+    Q. How to Display image at center of webpage by using absolute position?
+    img{
+      position:absolute;
+      left:50%;
+      top:50%;
+      transform:translate(-50%,-50%);
+    }
+
+
+    RELATIVE POSITION
+    -----------------
+    moving element from starting position called as relative position
+    becuase of relative position layout may not effect
+
+
+    position:relative;
+    left:
+    right:
+    top:
+    bottom:
+
+
+Q.  What are the differences between absolute and relative ?
+
+ Absolute                                                   relative
+ 1.moving element with respect to closed ancestor          1.moving element from starting position 
+ 2.layout may effect                                       2. layout may not effect
+
+ explain z-index ?
+      z-index released in css3
+      z-index used to change the order of stack elements 
+      
+ fixed
+ *****  
+  used to fix element on web page permenantly
+  syntax:
+        position:fixed;
+        left:
+        right:
+        top:
+        bottom:
+  
+  sticky
+  ------
+       used to sticky element on webpage while scrolling syntax.
+       syntax:
+         position:sticky
+         top:0px; / bottom: 0px;
+
+  NOTE :
+  statis is the default position 
+
+  <iframe></iframe>
+  ************************
+  <iframe></iframe> used to
+   1. include google maps
+   2. play you tube videos
+   3. open pdf files
+   4. include webpages
+   5. include wikipedia files
+
+
+   <iframe></iframe>
+   tag is inline element
+
+box-sizing:border box;
+======================
+
+this property release in CSS3
+
+this property includes padding and border in original width and original height of an element
+
+original width = width+padding+border
+
+original height = height+padding+border
+
+
+******CSS Dimensions******
+
+CSS supports following dimensions:
+1. rem
+2. em
+3. percentage
+4. vw (viewpoint width) & vh(viewport height)
+5. px (pixel)
+
+rem(root em)
+************
+     all html elements dimension,depending on root element dimension
+     1rem= 16px;
+
+
+<p></p>/
+<table></table>
+

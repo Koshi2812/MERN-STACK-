@@ -1,0 +1,21 @@
+fieldset{
+    width: 40%;
+    margin: 200px auto;
+    padding: 20px;
+    border-radius: 36px;
+    color: rgb(0, 2, 9);
+    background:linear-gradient(190deg,blue,white)
+}
+legend{
+    background:linear-gradient(90deg,yellow,red);
+    border-radius: 30px;
+    padding: 10px;
+}
+input[type="text"],input[type="password"]{
+    /* width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 20px;
+    border: 1px solid #ccc; */
+    outline: none;
+}
